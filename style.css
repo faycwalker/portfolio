@@ -17,6 +17,7 @@ body {
 
 .caption {
 	display: block;
+	max-width: 300px;
 	color: black;
 }
 
@@ -38,7 +39,7 @@ body {
 .icon-img {
 	height: 32px;
 	width: 32px;
-	
+
 	margin-left: 3px;
 	margin-right: 3px;
 	margin-bottom: 2px;
@@ -83,7 +84,7 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-	#project-container { 
+	#project-container {
 		margin-left: 30px;
 	}
 }
