@@ -1,0 +1,89 @@
+
+body {
+	font-family: 'Inconsolata', Monaco, "Lucida Console", Consolas, "Courier New", "Helvetica Neue";
+	background-color: #f9f9f9;
+
+	min-height: 100vh;
+	position: relative;
+}
+
+.project-image-wrapper {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.caption {
+	display: block;
+	color: black;
+}
+
+.project-preview {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+
+	margin: 10px;
+
+	opacity: 0.8;
+}
+
+#nba-origins {
+	padding-left: 10px;
+	background-color: white;
+}
+
+.icon-img {
+	height: 32px;
+	width: 32px;
+	
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+
+}
+
+.spacer {
+	height: 50px;
+}
+
+#project-container {
+	margin-bottom: 10vh;
+	display: block;
+	padding-bottom: 100px;
+
+	margin-left: auto;
+}
+
+#contact-info-wrapper {
+	width: 100%;
+	bottom: 5%;
+	/*left: 50%;*/
+	position: absolute;
+	text-align: center;
+}
+
+#contact-info {
+	background-color: white;
+	border-radius: 15px;
+	border: 1px solid black;
+	padding: 10px;
+
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#resume-link-wrapper {
+	/*margin-top: -80px;
+	margin-bottom: 100px;*/
+
+	position: absolute;
+}
+
+@media only screen and (max-width: 800px) {
+	#project-container { 
+		margin-left: 30px;
+	}
+}
