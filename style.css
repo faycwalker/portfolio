@@ -25,13 +25,16 @@ body {
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 10px;
-
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
 	margin: 10px;
 
 	opacity: 0.8;
 }
 
-#nba-origins {
+.white-fill {
 	padding-left: 10px;
 	background-color: white;
 }
