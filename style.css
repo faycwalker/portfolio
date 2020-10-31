@@ -15,6 +15,27 @@ body {
     margin-bottom: 25px;
 }
 
+#name-label {
+	padding: 10px;
+	font-size: 23px;
+}
+
+#headshot {
+	margin-top: 25px;
+	max-width: 35vw;
+	height: auto;
+}
+
+#bio-text {
+	max-width: 70%;
+	margin: auto;
+	text-align: justify;
+}
+
+#bio-container {
+	margin: auto;
+}
+
 .caption {
 	display: block;
 	max-width: 300px;
