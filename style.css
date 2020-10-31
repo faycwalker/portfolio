@@ -1,7 +1,7 @@
 
 body {
-	font-family: 'Montserrat', "Helvetica Neue";
-	background-color: #eee6f8;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5ecff;
 
 	min-height: 100vh;
 	position: relative;
