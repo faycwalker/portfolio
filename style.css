@@ -83,7 +83,7 @@ body {
 }
 
 #contact-info-wrapper {
-	bottom: 5%;
+	bottom: 10px;
 	left: 50%;
 	transform: translate(-50%,0);
 	position: absolute;
@@ -110,5 +110,15 @@ body {
 @media only screen and (max-width: 800px) {
 	#project-container {
 		margin-left: 30px;
+	}
+
+	#headshot {
+		max-width: 75%;
+		height: auto;
+	}
+
+	#bio-text {
+		max-width: unset;
+		text-align: left;
 	}
 }
